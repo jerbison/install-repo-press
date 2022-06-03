@@ -7,13 +7,13 @@
 jwt_secret=$(openssl rand -base64 32)
 jwt_refresh_secret=$(openssl rand -base64 32)
 
-deploy_password=JO3CIbBuh1Lx3kvMIjfhZXGpJkwweuriGsF0ZPO2/y4=
+deploy_password=@Master007
 
-mysql_root_password=JO3CIbBuh1Lx3kvMIjfhZXGpJkwweuriGsF0ZPO2/y4=
+mysql_root_password=Master007
 
 db_pass=$(openssl rand -base64 32)
 
 db_user=$(openssl rand -base64 32)
 db_name=$(openssl rand -base64 32)
 
-deploy_email=deploy@deploy.com
+deploy_email=jerbison.ti@gmail.com
